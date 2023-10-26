@@ -13,9 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="273e6e4b-89d8-4532-aa47-323e171f85a7">
-      <console name="muthurike" type="STANDARD" schema="graphqlApi" session="Main"><![CDATA[use `graphqlApi`;
-show tables;
-select * from `Author`]]></console>
+      <console name="muthurike" type="STANDARD" schema="grapgQl" session="Main"><![CDATA[create]]></console>
     </connection>
     <connection id="64f17982-f5ac-427a-880a-37564c774c64">
       <console name="Connection" type="STANDARD" schema="" session="Main" />
@@ -25,9 +23,7 @@ select * from `Author`]]></console>
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="273e6e4b-89d8-4532-aa47-323e171f85a7" object-ref="consoles/muthurike" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="273e6e4b-89d8-4532-aa47-323e171f85a7" dataset="mysql.global_priv" active-filter-id="b12fdf53-025e-4319-a316-808a82081a75">
