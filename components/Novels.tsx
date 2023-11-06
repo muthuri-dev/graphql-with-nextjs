@@ -3,8 +3,8 @@ import React, {FormEvent} from "react";
 import {useMutation, useQuery} from "@apollo/client";
 import {GET_NOVELS} from "@/graphql/queries";
 import {INovel} from "@/INovel";
-import {ADD_NOVEL, DELETE_NOVEL} from "@/graphql/mutations";
-import Novel from "@/components/Novel";
+import {ADD_NOVEL, DELETE_NOVEL, UPDATE_NOVEL} from "@/graphql/mutations";
+import Link from "next/link";
 
 export default function Novels() {
     const [title, setTitle] = React.useState<string>();
@@ -48,6 +48,8 @@ export default function Novels() {
                                 <button className="text-white bg-red-950 px-6 py-2 rounded-2xl text-sm m-3"
                                         onClick={() => deleteNovel({variables: {id: novel.id}})}>Delete
                                 </button>
+                                <Link className="bg-green-600 text-white px-6 py-2 rounded-2xl text-sm m-3"
+                                      href={`http://localhost:3000/${novel.id}`}>Read More</Link>
                             </div>
                         )
                     })
