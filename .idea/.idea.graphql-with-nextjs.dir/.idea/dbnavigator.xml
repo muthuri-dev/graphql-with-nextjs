@@ -23,6 +23,11 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="b0a9830a-1cfe-487f-935f-68eadc010a1f" dataset="graphql.Novel" active-filter-id="6d15cb36-a38e-4d0f-8df3-cb20ceda485c">
+      <filter id="6d15cb36-a38e-4d0f-8df3-cb20ceda485c" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="b0a9830a-1cfe-487f-935f-68eadc010a1f" dataset="graphql.Author" active-filter-id="1f2a7e87-ad08-406b-b071-d376ea7776fd">
       <filter id="1f2a7e87-ad08-406b-b071-d376ea7776fd" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
